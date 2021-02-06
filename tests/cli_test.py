@@ -11,4 +11,4 @@ def test_cli():
     result = runner.invoke(main.main)
 
     assert not result.exception
-    assert result.output == 'Hello, World!\n'
+    assert result.output == 'The total cost of your items is $0.00\n'
